@@ -1,0 +1,64 @@
+
+#bola{
+    /*El porcentaje está en función del fondo, no pueden ser iguales*/
+    width:33px;
+    height:28px;
+    background:black;
+    border-radius:50%;
+    z-index: 1;
+    left:2%;
+    top:50%;
+}
+
+.obstaculo{
+    height: 100%;
+    width:15%;
+    background:green;
+    left:220px;
+}
+.paso-seguro{
+    /*Tiene el mismo alto que la bola*/
+    height:23%;
+    top:75px;
+    width:100%;
+    background-color: greenyellow;
+}
+.estadisticas{ color:#dbe1e1;}
+
+#fondo{
+    height: 350px;
+    background-color: greenyellow;
+    overflow: hidden;
+}
+.titulo{
+    font-size: 2rem;
+    line-height: 1.5;
+    letter-spacing: 0.225em;
+    font-weight: 600;
+}
+
+
+
+.botones button{ height: 62px;}
+
+.puntaje-user{ background-color:#735a5a; }
+
+.puntaje-max{ background-color:#929b73; }
+
+#up,#bot{
+    font-size: 2rem;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.row > .col{
+    padding: 0;
+    margin:0 ;
+}
+.row{
+    padding: 0;
+    margin:0 ;
+}
+
+.aea{
+}
